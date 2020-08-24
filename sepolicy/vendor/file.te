@@ -1,3 +1,4 @@
+type cdfinger_data_file, core_data_file_type, data_file_type, file_type;
 type public_adsprpcd_file, file_type;
 type thermal_data_file, file_type, data_file_type;
 type proc_tpd_gesture, fs_type, proc_type;
