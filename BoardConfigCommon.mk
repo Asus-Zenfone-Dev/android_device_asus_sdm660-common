@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/xiaomi/sdm660-common
+COMMON_PATH := device/asus/sdm660-common
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -35,7 +35,7 @@ BOARD_KERNEL_CMDLINE += usbcore.autosuspend=7
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
+TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # QCOM hardware
@@ -145,4 +145,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+include vendor/asus/sdm660-common/BoardConfigVendor.mk
